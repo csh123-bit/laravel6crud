@@ -1,4 +1,4 @@
-{{-- @extends('./student/head') --}}
+@extends('./student/layout')
 <body>
     <div class="container mt-3">
         <form action="{{route('student.store')}}" method="post">
@@ -79,4 +79,4 @@
 </div>
 </div>
 </body>
-{{-- @include('/student/footer') --}}
+
